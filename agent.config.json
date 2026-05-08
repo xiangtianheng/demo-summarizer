@@ -1,0 +1,14 @@
+{
+  "id": "demo-summarizer",
+  "name": "demo-summarizer",
+  "role": "worker",
+  "version": "0.1.0",
+  "description": "Test fixture (control group). No litellm/ prefix to verify normalizeModelField leaves clean values alone.",
+  "category": "Testing",
+  "owner": "xiangtianheng",
+  "capabilities": ["test-fixture"],
+  "model": "claude-haiku-4-5",
+  "runtime": { "engine": "claude-code" },
+  "skills": [],
+  "env": {}
+}
